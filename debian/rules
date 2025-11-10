@@ -4,7 +4,10 @@
 	dh $@
 
 override_dh_auto_build:
-	$(MAKE)
+	$(CC) mc.c cmd.c operations.c dialog.c filelist.c init.c panel.c ui.c view_edit.c progress.c -lncurses -D_LARGEFILE_SOURCE -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -Os -s -g0 -o mc
+
+override_dh_auto_test:
+	# Skip tests (require interactive terminal)
 
 override_dh_auto_clean:
 	$(MAKE) clean || true
