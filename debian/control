@@ -1,0 +1,18 @@
+Source: mini-commander
+Section: utils
+Priority: optional
+Maintainer: crims0n <crims0n@minios.dev>
+Build-Depends: debhelper-compat (= 10), libncurses-dev
+Standards-Version: 4.6.2
+Homepage: https://github.com/Tomas-M/mini-commander
+
+Package: mini-commander
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Simplified clone of Midnight Commander
+ Mini Commander is a very simplified clone of Midnight Commander
+ for Linux. It provides a dual-pane file manager interface with
+ basic file operations in a terminal environment.
+ .
+ This is a lightweight alternative to the full Midnight Commander,
+ suitable for embedded systems and minimal installations.
