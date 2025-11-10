@@ -28,7 +28,7 @@ The resulting .deb file will be in the `build/` directory.
 sudo dpkg -i build/mini-commander_*.deb
 ```
 
-**Note:** The binary is installed as `/usr/bin/mc`, which may conflict with Midnight Commander if installed. Choose one or the other.
+The binary is installed as `/usr/bin/mini-cmd`.
 
 ## Cleaning
 

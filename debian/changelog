@@ -1,3 +1,9 @@
+mini-commander (1.0-2) unstable; urgency=low
+
+  * Rename binary to mini-cmd to avoid conflict with Midnight Commander
+
+ -- crims0n <crims0n@minios.dev>  Sun, 10 Nov 2025 15:20:00 +0300
+
 mini-commander (1.0-1) unstable; urgency=low
 
   * Initial release
